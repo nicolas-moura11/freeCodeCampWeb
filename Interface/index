@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="container">
+      <h1 id="title">Formulário</h1>
+      <p id="description">Descrição do formulário</p>
+    </header>
+    <form id="survey-form">
+      <label for="name" id="name-label">Digite o seu nome:
+        <input id="name" type="text" placeholder="primeiro-nome" required>
+      </label>
+      <label for="email" id="email-label">Digite seu email:
+        <input id="email" type="email" placeholder="nome-de-usuario@provedor-de-email.domínio" required>
+      </label>
+      <label for="number" id="number-label">Digite seu número de telefone:
+        <input id="number" type="Number" placeholder=" 90000-0000" min="900000000" max="999999999" required>
+      </label>
+      <label>
+        <select id="dropdown">
+          <option value="1">Opção 1</option>
+          <option value="2">Opção 2</option>
+        </select>
+      </label>
+      <label>
+        <input value="3" type="radio" name="option">Opção 3
+      </label>
+      <label>
+        <input type="radio" value="4" name="option">Opção 4
+      </label>
+      <label>
+        <input type="checkbox" value="5">Opção 5
+      </label>
+      <label>
+        <input type="checkbox" value="6">Opção 6
+      </label>
+      <label>
+        <input type="checkbox" value="7">Opção 7
+      </label>
+      <label>
+        <textarea rows="3"></textarea>
+      </label>
+      <input id="submit" type="submit">         
+    </form>
+  </body>
+</html>
